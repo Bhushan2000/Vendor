@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Vendor</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <string-array name="units">
+        <item>-UNIT-</item>
+        <item>pieces</item>
+        <item>metre</item>
+        <item>gram</item>
+        <item>litre</item>
+        <item>kilogram</item>
+        <item>millilitre</item>
+        <item>other</item>
+    </string-array>
+
+
+    <string-array name="popular">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+
+    <string-array name="Product_name">
+        <item>Phone</item>
+        <item>Laptop</item>
+        <item>Watch</item>
+        <item>Earphone</item>
+        <item>Shirt</item>
+        <item>Coffee Machine</item>
+        <item>Shoes</item>
+        <item>Fan</item>
+    </string-array>
+
+
+    <string-array name="Shipping_Status">
+        <item>Processing</item>
+        <item>Dispatched</item>
+        <item>In Transit</item>
+        <item>Out for Delivery</item>
+        <item>Delivered</item>
+    </string-array>
+    <string name="home">Home</string>
+
+    <string name="products">Products</string>
+    <string name="orders">Orders</string>
+    <string name="payment_setting">Payment Setting</string>
+    <string name="aadhar_verification">Aadhar Verification</string>
+    <string name="pan_verification">PAN Verification</string>
+    <string name="product_posting">Product Posting</string>
+    <string name="profile">Profile</string>
+    <string name="add_product">Add Product</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about">About Us</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="view_product">View Products</string>
+    <string name="notification">Notification</string>
+
+    // validation
+    <string name="nameerror">Enter a valid name</string>
+    <string name="emailerror">Enter a valid email</string>
+    <string name="mobileerror">Enter a valid mobile</string>
+    <string name="dateerror">Enter a valid date</string>
+    <string name="ageerror">Enter a valid age</string>
+</resources>

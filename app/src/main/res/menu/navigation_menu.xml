@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+
+        android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/home_icon"/>
+
+    <item
+
+        android:title="Profile"
+        android:id="@+id/profile"
+        android:icon="@drawable/profile_icon"/>
+    <item
+        app:actionViewClass="android.widget.TextView"
+        android:title="Orders"
+        android:id="@+id/orders"
+         android:icon="@drawable/order_icon" />
+    <item
+        android:title="Manage Payments"
+        android:id="@+id/payment"
+        android:icon="@drawable/payment_icon"/>
+        <item android:title="Products">
+            <menu>
+                <item
+                    android:id="@+id/addProduct"
+                    android:title="Add product"
+                    android:icon="@drawable/add_icon"/>
+                <item
+                    android:id="@+id/viewProducts"
+                    android:title="View products"
+                    app:actionViewClass="android.widget.TextView"
+                    android:icon="@drawable/view_icon"
+                    />
+            </menu>
+        </item>
+
+        <item android:title="My documents">
+        <menu>
+            <item
+                android:icon="@drawable/aadhar_icon"
+                android:title="Aadhar card"
+                android:id="@+id/aadhar" />
+            <item
+                android:id="@+id/PAN"
+                android:title="PAN card"
+                android:icon="@drawable/pan_icon"
+                />
+        </menu>
+        </item>
+    <item android:title="Others">
+        <menu>
+    <item
+        android:title="About Us"
+        android:icon="@drawable/about_icon"
+        android:id="@+id/aboutUs"/>
+    <item
+        android:title="Log out"
+        android:icon="@drawable/logout_icon"
+        android:id="@+id/logOut"/>
+        </menu>
+    </item>
+</menu>
